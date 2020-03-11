@@ -1,0 +1,333 @@
+/*For bigger screen then normal 1500px desktop*/
+@media (min-width: 1500px) {
+  .container{
+    max-width: 1170px;
+  }
+}
+/*For bigger screen then normal 960px desktop*/
+@media (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+
+}
+
+/*For Tablet Layout*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/*For Tablet Layout*/
+@media (max-width: 991px) {
+
+header.tpw-ptg-header-section{
+	padding: 30px 0;
+}
+.mean-container .mean-nav {
+	position: absolute;
+	width: calc(100vw - 30px);
+	max-width: 510px;
+	right: 0;
+	overflow: hidden;
+	margin-top: 66px;
+	background: #fff;
+	-webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.08);
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.08);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.mean-container .mean-nav ul li a {
+  	padding: 10px 5%;
+  	color: #001737;
+}
+.mean-container .mean-nav ul li:first-child a {
+  	border-top: 0;
+}
+.mean-container .mean-bar {
+  	background-color: transparent;
+}
+.mean-container a.meanmenu-reveal span {
+    background: #fff;
+}
+.mean-container a.meanmenu-reveal {
+	color: #fff;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding: 0;
+}
+.min-height {
+    min-height: 740px;
+}
+.tpw-ptg-breadcrumb-content h1 {
+    font-size: 40px;
+}
+.tpw-ptg-content-section, 
+.tpw-ptg-gallery-section, 
+.tpw-ptg-testimonial-section{
+	padding: 100px 0 0;
+}
+.tpw-ptg-content-wrap h2, 
+.tpw-ptg-section-title h2{
+	font-size: 40px;
+}
+.tpw-ptg-testimonial-thumb{
+	margin-right: 0;
+}
+.tpw-ptg-quote img {
+    width: 90px !important;
+}
+.tpw-ptg-quote {
+    top: 0;
+}
+.tpw-photostack-section {
+    padding: 100px 0;
+}
+.tpw-photostack-bottom {
+    margin-top: 80px;
+}
+.tpw-photostack-item{
+	position: inherit;
+}
+.tpw-photostack-body,
+.tpw-photostack-item.photostack1, 
+.tpw-photostack-item.photostack2, 
+.tpw-photostack-item.photostack3, 
+.tpw-photostack-item.photostack4, 
+.tpw-photostack-item.photostack5,
+.tpw-photostack-item.photostack6,
+.tpw-photostack-item.photostack7{
+	width: 100%;
+	margin-bottom: 15px;
+	transform: rotate(0deg)
+}
+.tpw_img_loaded.photostack1, 
+.tpw_img_loaded.photostack2, 
+.tpw_img_loaded.photostack3, 
+.tpw_img_loaded.photostack4,
+.tpw_img_loaded.photostack5,
+.tpw_img_loaded.photostack6,
+.tpw_img_loaded.photostack7{
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.tpw-photostack-wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+}
+.tpw-photostack-item {
+    -webkit-flex: 0 0 49%;
+    -moz-flex: 0 0 49%;
+    -ms-flex: 0 0 49%;
+    -o-flex: 0 0 49%;
+    flex: 0 0 49%;
+}
+.tpw-ptg-footer-top {
+    padding: 100px 0 64px;
+}
+.text-widget {
+    margin-bottom: 50px;
+}
+.tpw-ptg-breadcrumb-section {
+    padding: 130px 0 65px;
+}
+.tpw-ptg-about-content {
+    margin-right: 0;
+}
+.tpw-ptg-about-section {
+    padding: 100px 0 0;
+}
+.tpw-ptg-about-wrap {
+    margin-bottom: 100px;
+}
+.tpw-ptg-blog-section.blog-single {
+    padding: 100px 0 32px;
+}
+.tpw-ptg-contact-page {
+    padding: 100px 0 70px;
+}
+.tpw-ptg-contact-wrap {
+    margin-bottom: 80px;
+}
+.tpw-ptg-contact-info {
+    margin-top: 50px;
+}
+.tpw-ptg-gallery-single-section {
+    padding: 100px 70px;
+}
+.tpw-ptg-gallery-slider-thumb{
+	height: 400px;
+}
+
+
+}
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+.ptg-logo, 
+.ptg-menu{
+    width: 50%;
+}
+.tpw-ptg-banner-content h1{
+	font-size: 44px;
+}
+.min-height {
+    min-height: 550px;
+}
+.tpw-ptg-content-section, 
+.tpw-ptg-gallery-section, 
+.tpw-ptg-testimonial-section{
+	padding: 80px 0 0;
+}
+.tpw-ptg-content-wrap h2, 
+.tpw-ptg-section-title h2{
+    font-size: 34px;
+}
+.tpw-ptg-content-wrap p span {
+    font-size: 20px;
+}
+.tpw-ptg-gallery-item {
+    margin: 7px;
+}
+.tpw-ptg-testimonial-thumb {
+    height: 500px;
+    padding: 90px;
+}
+.tpw-ptg-testimonial-content p {
+    font-size: 20px;
+}
+.tpw-photostack-section{
+	padding: 80px 0;
+}
+.tpw-photostack-wrap{
+	display: block;
+}
+ul.tpw-ptg-f-nav {
+    margin: 0 0 50px;
+}
+.compywright {
+    margin: 0 0 20px;
+    text-align: center;
+}
+ul.tpw-ptg-f-privecy {
+    text-align: center;
+}
+.tpw-ptg-footer-top {
+    padding: 80px 0 65px;
+}
+.tpw-ptg-breadcrumb-section {
+    padding: 125px 0 50px;
+}
+.tpw-ptg-breadcrumb-content h1{
+	font-size: 30px;
+}
+.tpw-ptg-about-section {
+    padding: 80px 0 0;
+}
+.about-title h4{
+	margin-bottom: 30px;
+}
+.tpw-ptg-about-wrap {
+    margin-bottom: 50px;
+}
+.tpw-ptg-about-wrap:last-child {
+    margin-bottom: 0;
+}
+.col-lg-6.col-md-6.col-sm-6:last-child .tpw-ptg-about-service{
+	margin-bottom: 0;
+}
+.tpw-ptg-blog-section {
+    padding: 80px 0;
+}
+.tpw-ptg-contact-page {
+    padding: 80px 0;
+}
+.tpw-ptg-input-column{
+	display: block;
+}
+.tpw-ptg-gallery-section.gallery-page {
+    padding: 80px 0;
+}
+.tpw-ptg-gallery-single-section {
+    padding: 80px 0 50px;
+}
+.tpw-ptg-photo-info-right {
+    margin-left: 0;
+    margin-top: 50px;
+}
+.tpw-ptg-gallery-slider-thumb {
+    height: 300px;
+}
+.tpw-ptg-blog-content {
+    padding: 15px 0;
+}
+.tpw-ptg-input-field {
+    margin-bottom: 15px;
+}
+
+}
+
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+.tpw-ptg-banner-content h1 {
+    font-size: 36px;
+}
+.tpw-ptg-gallery-item {
+    margin: 7px 0;
+}
+.tpw-ptg-testimonial-thumb {
+    height: 430px;
+    padding: 30px;
+}
+.tpw-successful-project {
+    padding: 25px;
+}
+.tpw-ptg-quote {
+    top: 25px;
+}
+.tpw-ptg-quote img {
+    width: 60px !important;
+}
+.or {
+    display: block;
+    padding: 16px 0;
+}
+.tpw-ptg-pagination ul li {
+    margin: 0 2px;
+}
+.tpw-ptg-blog-section.blog-single {
+    padding: 80px 0 0;
+}
+.tpw-ptg-gallery-slider-thumb {
+    height: 230px;
+}
+
+
+}
